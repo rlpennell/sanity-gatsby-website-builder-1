@@ -1,0 +1,34 @@
+{
+  "name": "sanitytemplategatsbywebbsitebuilder",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Alec Venzor <alec@creativexps.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
+    "dev": "sanity start",
+    "start": "sanity start",
+    "build": "sanity build",
+    "graphql-deploy": "sanity graphql deploy --playground"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.30.1",
+    "@sanity/color-input": "^2.30.1",
+    "@sanity/core": "^2.30.1",
+    "@sanity/default-layout": "^2.30.1",
+    "@sanity/default-login": "^2.30.1",
+    "@sanity/desk-tool": "^2.30.1",
+    "@sanity/vision": "^2.30.1",
+    "gatsby-source-sanity": "^7.4.2",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "sanity-plugin-mux-input": "^1.1.8",
+    "styled-components": "^5.2.0"
+  }
+}

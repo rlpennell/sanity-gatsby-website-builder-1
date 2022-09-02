@@ -1,0 +1,47 @@
+{
+  "name": "family-roots-law",
+  "version": "1.0.0",
+  "private": true,
+  "description": "family-roots-law",
+  "author": "Alec Venzor",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@loadable/component": "^5.15.2",
+    "@mux/mux-player": "^0.1.0-beta.26",
+    "@mux/mux-player-react": "^0.1.0-beta.26",
+    "babel-plugin-styled-components": "^2.0.7",
+    "gatsby": "^4.19.0",
+    "gatsby-background-image": "^1.6.0",
+    "gatsby-plugin-google-analytics": "^4.18.0",
+    "gatsby-plugin-image": "^2.18.1",
+    "gatsby-plugin-manifest": "^4.18.1",
+    "gatsby-plugin-react-helmet": "^5.18.0",
+    "gatsby-plugin-sanity-image": "^0.11.0",
+    "gatsby-plugin-sharp": "^4.18.1",
+    "gatsby-plugin-sitemap": "^5.18.1",
+    "gatsby-plugin-styled-components": "^5.18.0",
+    "gatsby-source-filesystem": "^4.18.1",
+    "gatsby-source-sanity": "^7.4.2",
+    "gatsby-transformer-sharp": "^4.18.1",
+    "gbimage-bridge": "^0.2.1",
+    "intersection-observer": "^0.12.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-portable-text": "^0.4.3",
+    "react-youtube": "^9.0.3",
+    "sanity-plugin-mux-input": "^1.1.7",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "gatsby-plugin-netlify": "^5.0.1"
+  }
+}
